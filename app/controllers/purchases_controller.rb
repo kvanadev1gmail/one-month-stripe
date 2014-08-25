@@ -1,5 +1,5 @@
-class PurchaseController <ApplicationController
-	def show
-		@purchase = purchase.find(params[:id])
-	end
+class PurchasesController < ApplicationController
+  def show
+    @purchase = Purchase.find(params[:id])
+  end
 end
