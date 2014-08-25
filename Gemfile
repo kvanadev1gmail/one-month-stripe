@@ -38,6 +38,9 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 
+gem 'letter_opener', :group => :development
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
