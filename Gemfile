@@ -40,7 +40,9 @@ gem 'rails_12factor', group: :production
 
 gem 'letter_opener', group:  :development
 
+gem 'activeadmin', github: 'gregbell/active_admin'
 
+gem 'devise'
 #gem 'letter_opener', :group => :development 
 
 
